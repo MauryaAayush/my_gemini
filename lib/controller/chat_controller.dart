@@ -7,7 +7,7 @@ class ChatController extends GetxController {
   final gemini = Gemini.instance;
 
   List<ChatMessage> messages = [
-    ChatMessage(user: sender, createdAt: DateTime.now(), text: 'Hello World'),
+    ChatMessage(user: sender, createdAt: DateTime.now(), text: 'Hello'),
   ];
 
   Future<void> sendMessage(ChatMessage message) async {
