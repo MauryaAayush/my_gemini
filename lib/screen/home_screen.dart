@@ -9,8 +9,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
-        title: Text('Gemini'),
+        backgroundColor: Colors.purple,
+        title: const Text('My Ai'),
         centerTitle: true,
       ),
       body: GetBuilder<ChatController>(
