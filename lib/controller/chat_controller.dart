@@ -22,6 +22,7 @@ class ChatController extends GetxController {
             text: value!.output!
           ),
         );
+
       },
     );
     update();
