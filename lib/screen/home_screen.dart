@@ -9,7 +9,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       appBar: AppBar(
         backgroundColor: Colors.purple,
         title: const Text('My Ai'),
@@ -29,6 +28,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-ChatUser sender = ChatUser(id: '1', firstName: 'Aayush', lastName: 'Maurya');
-ChatUser receiver = ChatUser(id: '2', firstName: 'My', lastName: 'AI');
